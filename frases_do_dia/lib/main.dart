@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(MaterialApp(
     title: "Frases do dia",
-    home: Column(children: <Widget>[
-      Text("Texto 1"),
-      Text("Texto 2"),
-      Text("Texto 3")
+    home: Row(children: <Widget>[
+      Text("T1"),
+      Text("T2"),
+      Text("T3")
     ],),
     //home: Container(color: Colors.white,),
   ));
